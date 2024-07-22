@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="division">
+        <h1>In web design,css stands for ?</h1>
+
+        <div onclick="wrong()" id="d1" class="dd1">
+            <button id="bt1">A</button>
+            <h3>Counter Strike Sources</h3>
+        </div>
+        <div onclick="wrong1()" id="d2" class="dd1">
+            <button id="bt2">B</button>
+            <h3>Corrective Style Sheet</h3>
+        </div>
+        <div onclick="wrong2()" id="d3" class="dd1">
+            <button id="bt3">c</button>
+            <h3>Computer Style Sheet</h3>
+        </div>
+        <div onclick="correct1()" id="d4" class="dd1">
+            <button id="bt4">d</button>
+            <h3>Cascading Style Sheet</h3>
+        </div>
+    </div>
+
+
+    <script>
+        function wrong(){
+            const ans= document.getElementById('d1');
+            
+            ans.style.backgroundColor="red";
+           
+             
+        }
+        function wrong1(){
+            const answ= document.getElementById('d2');
+           
+            answ.style.backgroundColor="red";
+            
+        }
+        function wrong2(){
+            const answe= document.getElementById('d3');
+            answe.style.backgroundColor="red";
+        }
+        function correct1(){
+            const answer= document.getElementById('d4');
+            answer.style.backgroundColor="green";
+        }
+    </script>
+</body>
+</html>
